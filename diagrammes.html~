@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Rapport de projet</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="david" />
+	<meta name="description" content="Notre page web sur le projet POO"/>
+	<meta name="keywords" content="POO, Java, Metadonnées, Projet"/>
+</head>
+<body>
+	<header>
+	<a href="./index.html"><img src="./images/logo.png" alt="Logo de CYU"/></a>
+		<nav>
+		
+			<div>
+				<a href="./index.html">Page de garde</a>
+			</div>
+			<div>
+				<li><a href="./introduction.html">Introduction</a></li>
+			</div>
+				<li><a href="./diagrammes.html">Diagrammes</a></li>
+				<li><a href="./fonctionnalités.html">Fonctionnalités</a></li>
+				<li><a href="./avancements.html">Avancements</a></li>
+				<li><a href="./ressentis.html">Nos Ressentis</a></li>
+				<li><a href="./conclusion.html">Conclusion</a></li>
+				</div>
+		</nav>
+		<hr/>
+	</header>
+	<main>
+		<h1>DIAGRAMMES</h1>
+		<section>
+		<h2>Diagramme de GANTT</h2>	
+		<figure>
+			<img src="./images/gantt1.png" alt="Diagramme de GANTT"/>
+			<figcaption>Figure 1 : diagramme de Gantt partie 1</figcaption>
+		</figure>
+		<figure>
+			<img src="./images/gantt2.png" alt="Diagramme de GANTT"/>
+			<figcaption>Figure 2 : diagramme de Gantt partie 2</figcaption>
+		</figure>
+		</section>
+		<section>
+		<h2>Diagramme de classes</h2>	
+		<figure>
+			<img src="./images/uml.png" alt="Diagramme de classes UML"/>
+			<figcaption>Figure 3 : diagramme de classes</figcaption>
+		</figure>
+		</section>
+		<section>
+		<h2>Diagramme de cas d'utilisation</h2>	
+		<figure>
+			<img src="./images/usecase.png" alt="Diagramme de cas d'utilisation"/>
+			<figcaption>Figure 4 : Diagramme de cas d'utilisation</figcaption>
+		</figure>
+		</section>
+		<hr/>
+	</main>	
+	<footer>
+		<p id="num">3/7</p>
+		<p>David KICHENAMOURTHY <br>Nina POUCHAPARADJOU <aside>29/01/2025</p>
+		
+	</footer>
+</body>
+</html>

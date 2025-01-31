@@ -1,0 +1,31 @@
+body{
+	background-color: #A1CEC3;}
+ul{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size: 17pt;
+	color: blue;
+}
+h1{
+	font-size: 30pt;
+	color: #2660AA;
+}
+h2{
+	font-size: 20pt;
+	color:#5686DA;
+}
+#pdg{
+	text-align: center;
+}
+p{
+	font-size: 15pt;
+	text-align: justify;
+}
+#num {
+	text-align: center;
+}
+#rouge{
+	color: red;
+}
+aside{
+	font-size: 15pt;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Rapport de projet</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="david" />
+	<meta name="description" content="Notre page web sur le projet POO"/>
+	<meta name="keywords" content="POO, Java, Metadonnées, Projet"/>
+</head>
+<body>
+	<header>
+		<a href="./index.html"><img src="./images/logo.png" alt="Logo de CYU"/></a>
+		<nav>
+		
+			<ul>
+				<li><a href="./index.html">Page de garde</a></li>
+				<li><a href="./introduction.html">Introduction</a></li>
+				<li><a href="./diagrammes.html">Diagrammes</a></li>
+				<li><a href="./fonctionnalités.html">Fonctionnalités</a></li>
+				<li><a href="./avancements.html">Avancements</a></li>
+				<li><a href="./ressentis.html">Nos Ressentis</a></li>
+				<li><a href="./conclusion.html">Conclusion</a></li>
+			</ul>
+		</nav>
+		<hr/>
+	</header>
+	<main>
+		<h1>NOS RESSENTIS</h1>
+		<section>
+		<p><strong>David</strong> : Ce projet m’a permis de visualiser ce qu’est la gestion d’un projet en binôme dans un cadre plus “professionnel” que m’a demandé par exemple le projet de L1 (puissance 4). En effet la conception des différents diagrammes, le niveau de recherche et d’attendus de ce projet ont suscité beaucoup de mon temps durant cette fin de semestre. De plus, comparé à l’année dernière je n’ai pas pu gérer tout le projet complètement avec mon binôme, nous avons dû par moments gérer certaines parties de l’application indépendamment, ce qui m’a demandé une certaine autonomie et surtout une confiance envers mon binôme.</p>
+		</section>
+		<section>
+		<p><strong>Nina</strong> : Ce projet m’a permis d’apprendre à travailler dans un temps limité. En effet, il a nécessité une gestion rigoureuse des priorités et une organisation efficace pour atteindre les objectifs dans les délais impartis. J’ai dû identifier rapidement les fonctionnalités essentielles à implémenter tout en veillant à maintenir un niveau de qualité satisfaisant. Le respect des délais m’a permis de mieux prioriser les tâches critiques et de reporter les fonctionnalités moins urgentes mais m’a aussi appris à réagir face aux imprévus : des ajustements de dernière minute ont été nécessaires, comme le traitement des miniatures ou la gestion des formats d’image.</p>
+		</section>
+		<hr/>
+	</main>
+	<footer>
+	<table>
+	<tr>
+		<td>
+		<p>David KICHENAMOURTHY <br>Nina POUCHAPARADJOU</p>
+		</td>
+		<td>
+			<p>2024-2025</p>
+		</td>
+		<td>
+		6/7
+		</td>
+	</tr>
+	</table>
+	</footer>
+</body>
+</html>

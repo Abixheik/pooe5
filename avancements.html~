@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+	<link rel="stylesheet" href="style.css"/>
+	<title>Rapport de projet</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="david" />
+	<meta name="description" content="Notre page web sur le projet POO"/>
+	<meta name="keywords" content="POO, Java, Metadonnées, Projet"/>
+</head>
+<body>
+	<header>
+		<a href="./index.html"><img src="./images/logo.png" alt="Logo de CYU"/></a>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Page de garde</a></li>
+				<li><a href="./introduction.html">Introduction</a></li>
+				<li><a href="./diagrammes.html">Diagrammes</a></li>
+				<li><a href="./fonctionnalités.html">Fonctionnalités</a></li>
+				<li><a href="./avancements.html">Avancements</a></li>
+				<li><a href="./ressentis.html">Nos Ressentis</a></li>
+				<li><a href="./conclusion.html">Conclusion</a></li>
+			</ul>
+		</nav>
+
+		<hr/>
+	</header>
+	<main>
+		<h1>AVANCEMENTS</h1>
+		<section>
+		<p>Nous pensons que l’interface graphique a été pour nous le plus grand défi dans ce projet. En effet, l’interface graphique nous a demandé beaucoup de temps pour faire une interface à la fois esthétique mais aussi ergonomique. Effectivement, nous avons dû faire en sorte que l'interface graphique soit claire et intuitive avec une organisation bien pensée des composants pour faciliter son utilisation auprès de l’utilisateur. Pour cela, nous avons dû exploiter la librairie swing.</p>
+		</section>
+		<section>
+		<p>Nous avons rencontré de nombreux obstacles durant cette phase, notamment la gestion de l'affichage des miniatures dans un tableau. Cela nous a demandé un travail approfondi pour comprendre le fonctionnement des TableCellRenderer et pour adapter les cellules à l’affichage des images redimensionnées. Initialement, les images s'affichaient mal en raison d’une mauvaise gestion de la taille des cellules, ce qui a nécessité de nombreuses modifications pour ajuster la hauteur des lignes et la largeur des colonnes en fonction des miniatures.</p>
+		</section>
+		<section>
+		<p>La contrainte du temps limité nous a empêché d’améliorer certains points de notre code tel que les miniatures qui ont une taille fixe (100x100). Une amélioration pourrait être d'ajuster dynamiquement la taille en fonction des dimensions des cellules pour une meilleure visualisation des miniatures.</p>
+		</section>
+	<hr/>
+	</main>
+	
+	<footer>
+	<table>
+		<tr>
+		<td>
+		<p>David KICHENAMOURTHY <br>Nina POUCHAPARADJOU</p>
+		</td>
+		<td>
+			<p>2024-2025</p>
+		</td>
+		<td>
+		5/7
+		</td>
+		</tr>
+	</table>
+	</footer>
+</body>
+</html>
+

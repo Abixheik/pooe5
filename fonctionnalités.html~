@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Rapport de projet</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="david" />
+	<meta name="description" content="Notre page web sur le projet POO"/>
+	<meta name="keywords" content="POO, Java, Metadonnées, Projet"/>
+</head>
+<body>
+	<header>
+		<a href="./index.html"><img src="./images/logo.png" alt="Logo de CYU"/></a>
+		<nav>
+		
+			<ul>
+				<li><a href="./index.html">Page de garde</a></li>
+				<li><a href="./introduction.html">Introduction</a></li>
+				<li><a href="./diagrammes.html">Diagrammes</a></li>
+				<li><a href="./fonctionnalités.html">Fonctionnalités</a></li>
+				<li><a href="./avancements.html">Avancements</a></li>
+				<li><a href="./ressentis.html">Nos Ressentis</a></li>
+				<li><a href="./conclusion.html">Conclusion</a></li>
+			</ul>
+		</nav>
+		<hr/>
+	</header>
+	<main>
+		<h1>FONCTIONNALITÉS</h1>
+		<section>
+		<p>Dans le cadre de la mise à bien de ce projet, nous nous sommes répartis les tâches de manière homogène, afin que la charge de travail soit équitable. Comme indiqué dans le diagramme de GANTT, ce projet nous a pris un mois, durant lequel nous avons aussi bien travaillé en autonomie, mais aussi bien en groupe, chaque semaine, nous nous sommes retrouvés afin de présenter l’avancée de notre travail personnel, cela nous a permis de régler certains problèmes mais surtout de mettre tout le binôme à jour dans le sujet. </p>	
+		</section>
+		<section>
+		<p>Nous avons rencontré de nombreux obstacles durant la réalisation de ce projet notamment la compréhension de la lecture des métadonnées en Java avec la librairie externe <a href ="https://github.com/drewnoakes/metadata-extractor">Metadata-Extractor</a>. Cela nous a demandé un certain travail de recherche, que ce soit sur internet ou directement avec Eclipse en explorant les méthodes et constantes que certains objets présentaient. Un autre point qui nous a posé quelques soucis était la gestion de la classe Snapshot, qui a subi de nombreux changements, initialement nous avons opté pour une modélisation où un Repertoire était composé de Snapshot (voir ci-dessous).</p>
+		<figure>
+			<img src="./images/exemple1.png" alt="modélisation de Repertoire composé de Snapshot"/>
+			<figcaption>Figure 1 : modélisation de Repertoire composé de Snapshot</figcaption>
+		</figure>
+		<br><p>Seulement, certains objets de la classe <strong>Repertoire</strong> ne sont pas sérialisable (<strong>Metadata</strong>), nous avons donc changé de représentation, et décidé de séparer Snapshot de la classe <strong>Repertoire</strong>, et d’en faire un objet indépendant (<a href="./images/uml.png">cf Diagramme de Classe</a>).</p>		
+		</section>
+		<hr/>
+	</main>
+	<footer>
+	<table>
+		<tr>
+		<td>
+		<p>David KICHENAMOURTHY <br>Nina POUCHAPARADJOU</p>
+		</td>
+		<td>
+			<p>2024-2025</p>
+		</td>
+		<td>
+		4/7
+		</td>
+		</tr>
+	</table>
+	</footer>
+</body>
+</html>
